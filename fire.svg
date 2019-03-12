@@ -1,0 +1,24 @@
+<svg id="fire" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.93 250">
+  <title>Fire symbol animated</title>
+     <defs>
+  	<style>
+
+  		path {
+        transform-origin: center;
+        animation: new 2s infinite linear;
+
+  		}
+  		
+  	
+	  @keyframes new {
+      	0%{transform:  rotateX(180deg); fill:red;}
+        50% {transform: rotateX(0deg); fill:orange;}
+        100%{transform:  rotateX(180deg); fill:red;}
+      }
+   
+  		
+ 
+  	</style>
+  </defs>
+  <path d="M284.71,236.54,150.73,4.49a9,9,0,0,0-15.54,0L1.22,236.54A9,9,0,0,0,9,250h268A9,9,0,0,0,284.71,236.54ZM24.35,225.44,134,35.53,243.64,225.44Z" />
+</svg>
